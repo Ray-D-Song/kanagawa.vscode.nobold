@@ -1,15 +1,15 @@
 {
-    "name": "kanagawa",
-    "displayName": "Kanagawa",
-    "description": "Port of the Kanagawa.nvim - dark theme inspired by the colors of the famous painting by Katsushika Hokusai.",
-    "version": "1.5.1",
-    "publisher": "qufiwefefwoyn",
+    "name": "kanagawa-no-bold",
+    "displayName": "Kanagawa-no-bold",
+    "description": "Kanagawa theme with no bold",
+    "version": "0.1.0",
+    "publisher": "Ray-D-Song",
     "icon": "assets/icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/barklan/kanagawa.vscode"
+        "url": "https://github.com/ray-d-song/kanagawa.vscode.nobold"
     },
-    "homepage": "https://github.com/barklan/kanagawa.vscode",
+    "homepage": "https://github.com/ray-d-song/kanagawa.vscode.nobold",
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -23,29 +23,30 @@
         "kanagawa",
         "clean",
         "elegant",
-        "calm"
+        "calm",
+        "no bold"
     ],
     "badges": [
         {
-            "url": "https://vsmarketplacebadge.apphb.com/version/qufiwefefwoyn.kanagawa.svg",
-            "href": "https://marketplace.visualstudio.com/items/qufiwefefwoyn.kanagawa",
+            "url": "https://vsmarketplacebadge.apphb.com/version/ray-d-song.kanagawa-no-bold.svg",
+            "href": "https://marketplace.visualstudio.com/items/ray-d-song.kanagawa-no-bold",
             "description": "Extension version"
         },
         {
-            "url": "https://vsmarketplacebadge.apphb.com/installs/qufiwefefwoyn.kanagawa.svg",
-            "href": "https://marketplace.visualstudio.com/items/qufiwefefwoyn.kanagawa",
+            "url": "https://vsmarketplacebadge.apphb.com/installs/ray-d-song.kanagawa-no-bold.svg",
+            "href": "https://marketplace.visualstudio.com/items/ray-d-song.kanagawa-no-bold",
             "description": "Extension installs"
         },
         {
-            "url": "https://vsmarketplacebadge.apphb.com/rating/qufiwefefwoyn.kanagawa.svg",
-            "href": "https://marketplace.visualstudio.com/items/qufiwefefwoyn.kanagawa",
+            "url": "https://vsmarketplacebadge.apphb.com/rating/ray-d-song.kanagawa-no-bold.svg",
+            "href": "https://marketplace.visualstudio.com/items/ray-d-song.kanagawa-no-bold",
             "description": "Extension Rating"
         }
     ],
     "contributes": {
         "themes": [
             {
-                "label": "Kanagawa",
+                "label": "Kanagawa No Bold",
                 "uiTheme": "vs-dark",
                 "path": "./themes/kanagawa-color-theme.json"
             }
